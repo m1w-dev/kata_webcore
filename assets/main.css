@@ -1,0 +1,10 @@
+@import url("/assets/fonts/TTLAKES/TTLakes.css");
+
+html {
+	font-family: 'TT Lakes';
+	font-weight: normal;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
