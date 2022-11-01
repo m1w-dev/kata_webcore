@@ -3,13 +3,65 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Hello world</title>
+	<title>CPS</title>
 	<link rel="stylesheet" href="/assets/main.css">
 </head>
 <body>
-	<header class="header"></header>
+	<header class="flexible-header">
 
-	<main></main>
+		<div class="flexible-header__item icon-button">
+			<label class="icon-button__label">
+				<span class="icon-button__label-text--hidden--always">Меню сайта</span>
+				<button class="icon-button__button"></button>
+			</label>
+		</div>
+
+		<div class="flexible-header__item logo">
+			<a href="/" class="logo__link">
+				<img class="logo__image" src="logo.png" alt="Логотип CPS">
+			</a>
+		</div>
+
+		<menu class="flexible-header__item buttons-flex">
+			<div class="buttons-flex__button icon-button">
+				<label class="icon-button__label">
+					<span class="icon-button__label-text--hidden--always">Наш телефон</span>
+					<button class="icon-button__button"></button>
+				</label>
+			</div>
+			<div class="buttons-flex__button icon-button">
+				<label class="icon-button__label">
+					<span class="icon-button__label-text--hidden--always">Написать нам</span>
+					<button class="icon-button__button"></button>
+				</label>
+			</div>
+			<div class="buttons-flex__button icon-button">
+				<label class="icon-button__label">
+					<span class="icon-button__label-text--hidden--always">Личный кабинет</span>
+					<button class="icon-button__button"></button>
+				</label>
+			</div>
+
+			<div class="buttons-flex__button icon-button">
+				<label class="icon-button__label">
+					<span class="icon-button__label-text--hidden--lt768">Оставить заявку</span>
+					<button class="icon-button__button"></button>
+				</label>
+			</div>
+			<div class="buttons-flex__button icon-button">
+				<label class="icon-button__label">
+					<span class="icon-button__label-text--hidden--lt768">Статус ремнота</span>
+					<button class="icon-button__button"></button>
+				</label>
+			</div>
+		</menu>
+
+
+	</header>
+
+	<main>
+		<h1 class="page-title"></h1>
+	</main>
 	<footer></footer>
 </body>
 </html>
