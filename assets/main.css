@@ -4,13 +4,16 @@ html {
 	font-size: 14px;
 	line-height: 20px;
 }
-body {
+body, menu, li, ul, header, footer, aside, main {
 	padding: 0;
 	margin: 0;
 }
 
 :root {
-	--cps-pink: #FF3E79;
-	--cps-grey: #7E7E82;
-	--cps-blue: #41F6D7;
+	--cps-pink: 		#FF3E79;
+	--cps-grey: 		#7E7E82;
+	--cps-lightgrey:	#EAEAEA;
+	--cps-blue: 		#41F6D7;
+	--cps-lightblue:	#D9FFF5;
+	--cps-page: 		#F8F8F8;
 }

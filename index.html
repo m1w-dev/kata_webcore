@@ -7,22 +7,24 @@
 	<link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body class="body">
-	<header class="flexible-header">
+	<header class="body__header flexible-header">
 
-		<div class="flexible-header__item icon-button body__item body__item--hidden--mt1120">
+		<div class="flexible-header__burger icon-button body__item body__item--hidden--mt1120">
 			<label class="icon-button__label">
 				<span class="icon-button__label-text body__item body__item--vhidden--always">Меню сайта</span>
 				<button class="icon-button__button icon-button__button--img--burger"></button>
 			</label>
 		</div>
 
-		<div class="flexible-header__item logo body__item body__item--hidden--mt1120">
+		<div class="flexible-header__divider body__item body__item--hidden--mt1120 body__item--hidden--lt320"></div>
+
+		<div class="flexible-header__logo logo body__item body__item--hidden--mt1120">
 			<a href="/" class="logo__link">
 				<img class="logo__image" src="/assets/icons/logo.svg" alt="Логотип CPS">
 			</a>
 		</div>
 
-		<menu class="flexible-header__item buttons-flex">
+		<menu class="flexible-header__buttons buttons-flex">
 			<div class="buttons-flex__button icon-button body__item body__item--hidden--mt1120 body__item--hidden--lt320">
 				<label class="icon-button__label">
 					<span class="icon-button__label-text body__item body__item--vhidden--always">Наш телефон</span>
@@ -42,26 +44,25 @@
 				</label>
 			</div>
 
+			<div class="flexible-header__divider body__item body__item--hidden--mt1120"></div>
+
 			<div class="buttons-flex__button icon-button">
 				<label class="icon-button__label">
-					<span class="icon-button__label-text body__item body__item--vhidden--lt1120">Оставить заявку</span>
+					<span class="icon-button__label-text body__item body__item--vhidden--always">Оставить заявку</span>
 					<button class="icon-button__button icon-button__button--img--order"></button>
 				</label>
 			</div>
 			<div class="buttons-flex__button icon-button">
 				<label class="icon-button__label">
-					<span class="icon-button__label-text body__item body__item--vhidden--lt1120">Статус ремнота</span>
+					<span class="icon-button__label-text body__item body__item--vhidden--always">Статус ремнота</span>
 					<button class="icon-button__button icon-button__button--img--status"></button>
 				</label>
 			</div>
 		</menu>
-
-
 	</header>
 
-	<main>
-		<h1 class="page-title"></h1>
-	</main>
+	<main></main>
+
 	<footer></footer>
 </body>
 </html>

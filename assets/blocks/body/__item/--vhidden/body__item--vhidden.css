@@ -11,7 +11,7 @@
 	width: 1px;
 	white-space: nowrap;
 }
-@media (min-width: 321px) {
+@media (min-width: 513px) {
 	.body__item--vhidden--mt320 {
 		border: 0; 
 		clip: rect(0 0 0 0); 
@@ -43,7 +43,7 @@
 	}
 }
 
-@media (max-width: 320px) {
+@media (max-width: 512px) {
 	.body__item--vhidden--lt320 {
 		border: 0; 
 		clip: rect(0 0 0 0); 
