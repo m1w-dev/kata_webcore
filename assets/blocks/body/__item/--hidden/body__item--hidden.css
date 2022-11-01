@@ -1,0 +1,24 @@
+.body__item--hidden--always {
+	display: none;
+}
+@media (min-width: 321px) {
+	.body__item--hidden--mt320 {
+		display: none;
+	}
+}
+@media (min-width: 1120px) {
+	.body__item--hidden--mt1120 {
+		display: none;
+	}
+}
+
+@media (max-width: 320px) {
+	.body__item--hidden--lt320 {
+		display: none;
+	}
+}
+@media (max-width: 1119px) {
+	.body__item--hidden--lt1120 {
+		display: none;
+	}
+}

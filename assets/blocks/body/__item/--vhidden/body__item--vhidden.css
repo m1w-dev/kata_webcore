@@ -1,0 +1,75 @@
+.body__item--vhidden--always {
+	border: 0; 
+	clip: rect(0 0 0 0); 
+	-webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+	clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+	height: 1px; 
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
+}
+@media (min-width: 321px) {
+	.body__item--vhidden--mt320 {
+		border: 0; 
+		clip: rect(0 0 0 0); 
+		-webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+		clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+		height: 1px; 
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+		white-space: nowrap;
+	}
+}
+
+@media (min-width: 1120px) {
+	.body__item--vhidden--mt1120 {
+		border: 0; 
+		clip: rect(0 0 0 0); 
+		-webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+		clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+		height: 1px; 
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+		white-space: nowrap;
+	}
+}
+
+@media (max-width: 320px) {
+	.body__item--vhidden--lt320 {
+		border: 0; 
+		clip: rect(0 0 0 0); 
+		-webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+		clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+		height: 1px; 
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+		white-space: nowrap;
+	}
+}
+@media (max-width: 1119px) {
+	.body__item--vhidden--lt1120 {
+		border: 0; 
+		clip: rect(0 0 0 0); 
+		-webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+		clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+		height: 1px; 
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+		white-space: nowrap;
+	}
+}
