@@ -10,6 +10,3 @@ body {
 	padding: 0;
 	margin: 0;
 }
-.icon-button__label-text[hidden = lt768] {
-	color: green;
-}
