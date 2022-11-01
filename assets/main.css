@@ -10,3 +10,20 @@ body {
 	padding: 0;
 	margin: 0;
 }
+
+:root {
+	--cps-pink: #FF3E79;
+	--cps-grey: #7E7E82;
+	--cps-blue: #41F6D7;
+}
+
+@import url("/assets/blocks/icon-button/icon-button.css");
+@import url("/assets/blocks/icon-button/__button/icon-button__button.css");
+@import url("/assets/blocks/icon-button/__button/--img/icon-button__button--img.css");
+
+@import url("/assets/blocks/icon-button/__label/icon-button__label.css");
+
+@import url("/assets/blocks/icon-button/__label-text/icon-button__label-text.css");
+@import url("/assets/blocks/icon-button/__label-text/--hidden/icon-button__label-text--hidden.css");
+
+
