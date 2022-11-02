@@ -31,11 +31,11 @@
 @import url(../assets/blocks/navigation/__item/--active/navigation__item--active.css);
 @import url(../assets/blocks/navigation/__link/navigation__link.css);
 
-@import url(../assets/blocks/column2/column2.css);
-@import url(../assets/blocks/column2/__column/column2__column.css);
-@import url(../assets/blocks/column2/__image/column2__image.css);
-@import url(../assets/blocks/column2/__p/column2__p.css);
-@import url(../assets/blocks/column2/__readmore/column2__readmore.css);
+@import url(../assets/blocks/double-block/double-block.css);
+@import url(../assets/blocks/double-block/__column/double-block__column.css);
+@import url(../assets/blocks/double-block/__image/double-block__image.css);
+@import url(../assets/blocks/double-block/__p/double-block__p.css);
+@import url(../assets/blocks/double-block/__readmore/double-block__readmore.css);
 
 
 @import url(../assets/blocks/body/body.css);

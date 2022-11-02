@@ -1,4 +1,4 @@
-.column2 {
+.double-block {
 	display: flex;
     flex-direction: row;
     flex-wrap: wrap;

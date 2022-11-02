@@ -1,4 +1,4 @@
-.column2__readmore {
+.double-block__readmore {
 	border: none;
 	background: none;
 	font-size: 16px;
@@ -6,7 +6,7 @@
 	position: relative;
 	cursor: pointer;
 }
-.column2__readmore:before {
+.double-block__readmore:before {
 	position: absolute;
 	content: '';
 	-webkit-mask: url(/assets/icons/arrows.svg) no-repeat 50% 50%;
