@@ -8,6 +8,11 @@ body, menu, li, ul, header, footer, aside, main {
 	padding: 0;
 	margin: 0;
 }
+html, body {
+	height: 100%;
+	width: 100%;
+	min-width: 320px;
+}
 
 :root {
 	--cps-pink: 		#FF3E79;

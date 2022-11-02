@@ -2,23 +2,23 @@
 	display: none;
 }
 @media (min-width: 513px) {
-	.body__item--hidden--mt320 {
+	.body__item--hidden--mt-mobile {
 		display: none;
 	}
 }
 @media (min-width: 1120px) {
-	.body__item--hidden--mt1120 {
+	.body__item--hidden--mt-desktop {
 		display: none;
 	}
 }
 
 @media (max-width: 512px) {
-	.body__item--hidden--lt320 {
+	.body__item--hidden--lt-mobile {
 		display: none;
 	}
 }
 @media (max-width: 1119px) {
-	.body__item--hidden--lt1120 {
+	.body__item--hidden--lt-desktop {
 		display: none;
 	}
 }

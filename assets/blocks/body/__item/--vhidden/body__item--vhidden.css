@@ -12,7 +12,7 @@
 	white-space: nowrap;
 }
 @media (min-width: 513px) {
-	.body__item--vhidden--mt320 {
+	.body__item--vhidden--mt-mobile {
 		border: 0; 
 		clip: rect(0 0 0 0); 
 		-webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
@@ -28,7 +28,7 @@
 }
 
 @media (min-width: 1120px) {
-	.body__item--vhidden--mt1120 {
+	.body__item--vhidden--mt-desktop {
 		border: 0; 
 		clip: rect(0 0 0 0); 
 		-webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
@@ -44,7 +44,7 @@
 }
 
 @media (max-width: 512px) {
-	.body__item--vhidden--lt320 {
+	.body__item--vhidden--lt-mobile {
 		border: 0; 
 		clip: rect(0 0 0 0); 
 		-webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
@@ -59,7 +59,7 @@
 	}
 }
 @media (max-width: 1119px) {
-	.body__item--vhidden--lt1120 {
+	.body__item--vhidden--lt-desktop {
 		border: 0; 
 		clip: rect(0 0 0 0); 
 		-webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);

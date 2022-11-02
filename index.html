@@ -9,42 +9,42 @@
 <body class="body">
 	<header class="body__header flexible-header">
 
-		<div class="flexible-header__burger icon-button body__item body__item--hidden--mt1120">
+		<div class="flexible-header__burger icon-button body__item body__item--hidden--mt-desktop">
 			<label class="icon-button__label">
 				<span class="icon-button__label-text body__item body__item--vhidden--always">Меню сайта</span>
 				<button class="icon-button__button icon-button__button--img--burger"></button>
 			</label>
 		</div>
 
-		<div class="flexible-header__divider body__item body__item--hidden--mt1120 body__item--hidden--lt320"></div>
+		<div class="flexible-header__divider body__item body__item--hidden--mt-desktop body__item--hidden--lt-mobile"></div>
 
-		<div class="flexible-header__logo logo body__item body__item--hidden--mt1120">
+		<div class="flexible-header__logo logo body__item body__item--hidden--mt-desktop">
 			<a href="/" class="logo__link">
 				<img class="logo__image" src="/assets/icons/logo.svg" alt="Логотип CPS">
 			</a>
 		</div>
 
 		<menu class="flexible-header__buttons buttons-flex">
-			<div class="buttons-flex__button icon-button body__item body__item--hidden--mt1120 body__item--hidden--lt320">
+			<div class="buttons-flex__button icon-button body__item body__item--hidden--mt-desktop body__item--hidden--lt-mobile">
 				<label class="icon-button__label">
 					<span class="icon-button__label-text body__item body__item--vhidden--always">Наш телефон</span>
 					<button class="icon-button__button icon-button__button--img--phone"></button>
 				</label>
 			</div>
-			<div class="buttons-flex__button icon-button body__item body__item--hidden--mt1120 body__item--hidden--lt320">
+			<div class="buttons-flex__button icon-button body__item body__item--hidden--mt-desktop body__item--hidden--lt-mobile">
 				<label class="icon-button__label">
 					<span class="icon-button__label-text body__item body__item--vhidden--always">Написать нам</span>
 					<button class="icon-button__button icon-button__button--img--chat"></button>
 				</label>
 			</div>
-			<div class="buttons-flex__button icon-button body__item body__item--hidden--mt1120 body__item--hidden--lt320">
+			<div class="buttons-flex__button icon-button body__item body__item--hidden--mt-desktop body__item--hidden--lt-mobile">
 				<label class="icon-button__label">
 					<span class="icon-button__label-text body__item body__item--vhidden--always">Личный кабинет</span>
 					<button class="icon-button__button icon-button__button--img--profile"></button>
 				</label>
 			</div>
 
-			<div class="flexible-header__divider body__item body__item--hidden--mt1120"></div>
+			<div class="flexible-header__divider body__item body__item--hidden--mt-desktop"></div>
 
 			<div class="buttons-flex__button icon-button">
 				<label class="icon-button__label">
@@ -61,7 +61,51 @@
 		</menu>
 	</header>
 
-	<main></main>
+	<main class="body__main main">
+		<h1 class="main__title">Услуги и сервисы</h1>
+		<aside class="main__aside body__item body__item--hidden--lt-desktop">
+			<menu class="buttons-flex">
+				<div class="buttons-flex__button icon-button">
+					<label class="icon-button__label">
+						<span class="icon-button__label-text">Оставить заявку</span>
+						<button class="icon-button__button icon-button__button--img--order"></button>
+					</label>
+				</div>
+				<div class="buttons-flex__button icon-button">
+					<label class="icon-button__label">
+						<span class="icon-button__label-text">Статус ремнота</span>
+						<button class="icon-button__button icon-button__button--img--status"></button>
+					</label>
+				</div>
+			</menu>
+		</aside>
+		<nav class="main__nav">
+			<ul class="navigation">
+				<li class="navigation__item navigation__item--active">
+					<a href="#" class="navigation__link" target="_self">Ремонтируемые бренды</a>
+				</li>
+				<li class="navigation__item">
+					<a href="#" class="navigation__link" target="_self">Ремонтируемые устройства</a>
+				</li>
+				<li class="navigation__item">
+					<a href="#" class="navigation__link" target="_self">Цены на услуги</a>
+				</li>
+				<li class="navigation__item">
+					<a href="#" class="navigation__link" target="_self">Адреса сервисных центров</a>
+				</li>
+				<li class="navigation__item">
+					<a href="#" class="navigation__link" target="_self">Специальные цены</a>
+				</li>
+				<li class="navigation__item">
+					<a href="#" class="navigation__link" target="_self">Отзывы</a>
+				</li>
+			</ul>
+		</nav>
+		<article class="main__about about">
+			<div></div>			
+		</article>
+		
+	</main>
 
 	<footer></footer>
 </body>

@@ -22,9 +22,22 @@
 @import url(../assets/blocks/flexible-header/__buttons/flexible-header__buttons.css);
 @import url(../assets/blocks/flexible-header/__divider/flexible-header__divider.css);
 
+@import url(../assets/blocks/main/main.css);
+@import url(../assets/blocks/main/__title/main__title.css);
+@import url(../assets/blocks/main/__aside/main__aside.css);
+@import url(../assets/blocks/main/__nav/main__nav.css);
+@import url(../assets/blocks/main/__content/main__content.css);
+
+@import url(../assets/blocks/navigation/navigation.css);
+@import url(../assets/blocks/navigation/__item/navigation__item.css);
+@import url(../assets/blocks/navigation/__item/--active/navigation__item--active.css);
+@import url(../assets/blocks/navigation/__link/navigation__link.css);
+
 
 @import url(../assets/blocks/body/body.css);
 @import url(../assets/blocks/body/__header/body__header.css);
+@import url(../assets/blocks/body/__main/body__main.css);
+@import url(../assets/blocks/body/__footer/body__footer.css);
 @import url(../assets/blocks/body/__item/body__item.css);
 @import url(../assets/blocks/body/__item/--hidden/body__item--hidden.css);
 @import url(../assets/blocks/body/__item/--vhidden/body__item--vhidden.css);
