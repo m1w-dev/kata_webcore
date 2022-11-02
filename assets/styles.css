@@ -41,6 +41,7 @@
 @import url(../assets/blocks/body/body.css);
 @import url(../assets/blocks/body/__header/body__header.css);
 @import url(../assets/blocks/body/__main/body__main.css);
-@import url(../assets/blocks/body/__item/body__item.css);
-@import url(../assets/blocks/body/__item/--hidden/body__item--hidden.css);
-@import url(../assets/blocks/body/__item/--vhidden/body__item--vhidden.css);
+
+@import url(../assets/blocks/general-options/general-options.css);
+@import url(../assets/blocks/general-options/--hidden/general-options--hidden.css);
+@import url(../assets/blocks/general-options/--vhidden/general-options--vhidden.css);
