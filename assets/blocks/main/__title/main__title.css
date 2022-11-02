@@ -17,4 +17,7 @@
 	.main__title {
 		flex-basis: 50%;
 	}
+	.main__title:before {
+		left: -32px;
+	}
 }
