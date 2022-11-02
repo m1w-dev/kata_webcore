@@ -1,6 +1,6 @@
 @import url(../assets/fonts/TTLakes/TTLakes.css);
 
-@import url(../assets/main.css);
+@import url(../assets/root.css);
 
 
 @import url(../assets/blocks/icon-button/icon-button.css);
@@ -32,6 +32,12 @@
 @import url(../assets/blocks/navigation/__item/navigation__item.css);
 @import url(../assets/blocks/navigation/__item/--active/navigation__item--active.css);
 @import url(../assets/blocks/navigation/__link/navigation__link.css);
+
+@import url(../assets/blocks/column2/column2.css);
+@import url(../assets/blocks/column2/__column/column2__column.css);
+@import url(../assets/blocks/column2/__image/column2__image.css);
+@import url(../assets/blocks/column2/__p/column2__p.css);
+@import url(../assets/blocks/column2/__readmore/column2__readmore.css);
 
 
 @import url(../assets/blocks/body/body.css);
