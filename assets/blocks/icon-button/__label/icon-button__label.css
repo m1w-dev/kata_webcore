@@ -1,9 +1,0 @@
-.icon-button__label {
-	display: flex;
-    gap: 8px;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: flex-start;
-    align-items: center;
-}
