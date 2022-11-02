@@ -14,8 +14,6 @@
 @import url(../assets/blocks/logo/logo.css);
 @import url(../assets/blocks/logo/__image/logo__image.css);
 
-
-
 @import url(../assets/blocks/flexible-header/flexible-header.css);
 @import url(../assets/blocks/flexible-header/__burger/flexible-header__burger.css);
 @import url(../assets/blocks/flexible-header/__logo/flexible-header__logo.css);
@@ -43,7 +41,6 @@
 @import url(../assets/blocks/body/body.css);
 @import url(../assets/blocks/body/__header/body__header.css);
 @import url(../assets/blocks/body/__main/body__main.css);
-@import url(../assets/blocks/body/__footer/body__footer.css);
 @import url(../assets/blocks/body/__item/body__item.css);
 @import url(../assets/blocks/body/__item/--hidden/body__item--hidden.css);
 @import url(../assets/blocks/body/__item/--vhidden/body__item--vhidden.css);
