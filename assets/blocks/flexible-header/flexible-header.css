@@ -1,0 +1,9 @@
+.flexible-header {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}

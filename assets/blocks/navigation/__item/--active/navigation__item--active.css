@@ -1,0 +1,4 @@
+.navigation__item--active {
+	border: 2px solid var(--cps-blue);
+	background-color: white;
+}

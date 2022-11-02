@@ -1,0 +1,46 @@
+@import url(../assets/fonts/TTLakes/TTLakes.css);
+
+@import url(../assets/root.css);
+
+
+@import url(../assets/blocks/icon-button/icon-button.css);
+@import url(../assets/blocks/icon-button/__button/icon-button__button.css);
+@import url(../assets/blocks/icon-button/__button/--img/icon-button__button--img.css);
+@import url(../assets/blocks/icon-button/__label/icon-button__label.css);
+@import url(../assets/blocks/icon-button/__label-text/icon-button__label-text.css);
+
+@import url(../assets/blocks/buttons-flex/buttons-flex.css);
+
+@import url(../assets/blocks/logo/logo.css);
+@import url(../assets/blocks/logo/__image/logo__image.css);
+
+@import url(../assets/blocks/flexible-header/flexible-header.css);
+@import url(../assets/blocks/flexible-header/__burger/flexible-header__burger.css);
+@import url(../assets/blocks/flexible-header/__logo/flexible-header__logo.css);
+@import url(../assets/blocks/flexible-header/__buttons/flexible-header__buttons.css);
+@import url(../assets/blocks/flexible-header/__divider/flexible-header__divider.css);
+
+@import url(../assets/blocks/main/main.css);
+@import url(../assets/blocks/main/__title/main__title.css);
+@import url(../assets/blocks/main/__aside/main__aside.css);
+@import url(../assets/blocks/main/__nav/main__nav.css);
+@import url(../assets/blocks/main/__content/main__content.css);
+
+@import url(../assets/blocks/navigation/navigation.css);
+@import url(../assets/blocks/navigation/__item/navigation__item.css);
+@import url(../assets/blocks/navigation/__item/--active/navigation__item--active.css);
+@import url(../assets/blocks/navigation/__link/navigation__link.css);
+
+@import url(../assets/blocks/column2/column2.css);
+@import url(../assets/blocks/column2/__column/column2__column.css);
+@import url(../assets/blocks/column2/__image/column2__image.css);
+@import url(../assets/blocks/column2/__p/column2__p.css);
+@import url(../assets/blocks/column2/__readmore/column2__readmore.css);
+
+
+@import url(../assets/blocks/body/body.css);
+@import url(../assets/blocks/body/__header/body__header.css);
+@import url(../assets/blocks/body/__main/body__main.css);
+@import url(../assets/blocks/body/__item/body__item.css);
+@import url(../assets/blocks/body/__item/--hidden/body__item--hidden.css);
+@import url(../assets/blocks/body/__item/--vhidden/body__item--vhidden.css);

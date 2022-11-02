@@ -1,0 +1,8 @@
+.main__aside {
+	flex-basis: 100%;
+}
+@media (min-width: 1120px) {
+	.main__aside {
+		flex-basis: 50%;
+	}
+}

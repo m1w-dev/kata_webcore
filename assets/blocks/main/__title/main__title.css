@@ -1,0 +1,23 @@
+.main__title {
+	font-size: 2em;
+	position: relative;
+	flex-basis: 100%;
+	margin: 0;
+}
+.main__title:before {
+	position: absolute;
+	left: -24px;
+	top: -50%;
+	content: ' ';
+	height: 40px;
+	width: 4px;
+	background-color: var(--cps-blue);
+}
+@media (min-width: 1120px) {
+	.main__title {
+		flex-basis: 50%;
+	}
+	.main__title:before {
+		left: -32px;
+	}
+}
