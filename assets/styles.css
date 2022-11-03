@@ -10,6 +10,7 @@
 @import url(../assets/blocks/icon-button/__label-text/icon-button__label-text.css);
 
 @import url(../assets/blocks/buttons-row/buttons-row.css);
+@import url(../assets/blocks/buttons-row/--jf/buttons-row--jf.css);
 
 @import url(../assets/blocks/logo/logo.css);
 @import url(../assets/blocks/logo/__image/logo__image.css);
@@ -19,6 +20,9 @@
 @import url(../assets/blocks/flexible-header/__logo/flexible-header__logo.css);
 @import url(../assets/blocks/flexible-header/__buttons/flexible-header__buttons.css);
 @import url(../assets/blocks/flexible-header/__divider/flexible-header__divider.css);
+
+@import url(../assets/blocks/panel/panel.css);
+@import url(../assets/blocks/panel/--type/panel--type.css);
 
 @import url(../assets/blocks/main/main.css);
 @import url(../assets/blocks/main/__title/main__title.css);

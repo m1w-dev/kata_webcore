@@ -3,7 +3,6 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
-    justify-content: flex-end;
     align-items: center;
     gap: 16px;
 }

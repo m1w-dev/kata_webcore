@@ -28,3 +28,8 @@
 	background-position: center;
 	background-repeat: no-repeat;
 }
+.icon-button__button--img--search {
+	background-image: url('/assets/icons/search.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+}
