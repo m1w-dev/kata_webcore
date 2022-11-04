@@ -36,10 +36,15 @@
 @import url(../assets/blocks/main/__nav/main__nav.css);
 @import url(../assets/blocks/main/__content/main__content.css);
 
-@import url(../assets/blocks/navigation/navigation.css);
-@import url(../assets/blocks/navigation/--type/navigation--type.css);
-@import url(../assets/blocks/navigation/__item/navigation__item.css);
-@import url(../assets/blocks/navigation/__link/navigation__link.css);
+@import url(../assets/blocks/navigation-buttons/navigation-buttons.css);
+@import url(../assets/blocks/navigation-buttons/__item/navigation-buttons__item.css);
+@import url(../assets/blocks/navigation-buttons/__item/--active/navigation-buttons__item--active.css);
+@import url(../assets/blocks/navigation-buttons/__link/navigation-buttons__link.css);
+
+@import url(../assets/blocks/navigation-marks/navigation-marks.css);
+@import url(../assets/blocks/navigation-marks/__item/navigation-marks__item.css);
+@import url(../assets/blocks/navigation-marks/__item/--active/navigation-marks__item--active.css);
+@import url(../assets/blocks/navigation-marks/__link/navigation-marks__link.css);
 
 @import url(../assets/blocks/double-block/double-block.css);
 @import url(../assets/blocks/double-block/__column/double-block__column.css);

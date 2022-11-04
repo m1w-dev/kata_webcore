@@ -1,0 +1,27 @@
+.navigation-marks__item {
+	cursor: pointer;
+	display: block;
+	white-space: nowrap;
+	padding: 10px 24px;
+	position: relative;
+	line-height: 32px;
+	color: black;
+}
+.navigation-marks__item:hover {
+	color: var(--cps-grey);
+}
+.navigation-marks__item:before {
+	position: absolute;
+	content: '';
+	width: 4px;
+	height: 32px;
+	left: 0;
+	top: 0;
+}
+.navigation-marks__item:hover:before {
+	background-color: var(--cps-lightblue);
+}
+
+.navigation-marks__item::marker {
+	display: none;
+}
