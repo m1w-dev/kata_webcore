@@ -23,6 +23,12 @@
 
 @import url(../assets/blocks/panel/panel.css);
 @import url(../assets/blocks/panel/--type/panel--type.css);
+@import url(../assets/blocks/panel/__item/panel__item.css);
+@import url(../assets/blocks/panel/__link/panel__link.css);
+@import url(../assets/blocks/panel/__link/--active/panel__link--active.css);
+@import url(../assets/blocks/panel/__link/--fs/panel__link--fs.css);
+@import url(../assets/blocks/panel/__link/--pd/panel__link--pd.css);
+@import url(../assets/blocks/panel/__nav/panel__nav.css);
 
 @import url(../assets/blocks/main/main.css);
 @import url(../assets/blocks/main/__title/main__title.css);
@@ -33,7 +39,6 @@
 @import url(../assets/blocks/navigation/navigation.css);
 @import url(../assets/blocks/navigation/--type/navigation--type.css);
 @import url(../assets/blocks/navigation/__item/navigation__item.css);
-@import url(../assets/blocks/navigation/__item/--active/navigation__item--active.css);
 @import url(../assets/blocks/navigation/__link/navigation__link.css);
 
 @import url(../assets/blocks/double-block/double-block.css);
