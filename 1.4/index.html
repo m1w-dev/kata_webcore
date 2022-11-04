@@ -8,7 +8,7 @@
 </head>
 <body class="page">
 	<aside class="page__panel panel panel--type--fixed320">
-		<div class="flexible-header">
+		<div class="panel__item flexible-header">
 			<div class="flexible-header__burger icon-button general-options general-options--hidden--mt-desktop">
 				<label class="icon-button__label">
 					<span class="icon-button__label-text general-options general-options--vhidden--always">Меню сайта</span>
@@ -32,9 +32,37 @@
 			</div>
 		</div>
 			
-		<!-- Вертикальные ссылочки -->
+		<nav class="panel__nav">
+			<ul class="navigation navigation--type--vertical">
+				<li class="navigation__item navigation__item--active">
+					<a href="#" class="navigation__link" target="_self">Ремонт техники</a>
+				</li>
+				<li class="navigation__item">
+					<a href="#" class="navigation__link" target="_self">Услуги и сервисы</a>
+				</li>
+				<li class="navigation__item">
+					<a href="#" class="navigation__link" target="_self">Корпоративным клиентам</a>
+				</li>
+				<li class="navigation__item">
+					<a href="#" class="navigation__link" target="_self">Продавцам техники</a>
+				</li>
+				<li class="navigation__item">
+					<a href="#" class="navigation__link" target="_self">Партнёрам</a>
+				</li>
+				<li class="navigation__item">
+					<a href="#" class="navigation__link" target="_self">Производителям</a>
+				</li>
+				<li class="navigation__item">
+					<a href="#" class="navigation__link" target="_self">Наши сервисные центры</a>
+				</li>
+				<li class="navigation__item">
+					<a href="#" class="navigation__link" target="_self">Контакты</a>
+				</li>
+			</ul>
+		</nav>
 
-		<menu class="buttons-row buttons-row--jf--start">
+
+		<menu class="panel__item buttons-row buttons-row--jf--start">
 			<div class="buttons-row__button icon-button">
 				<label class="icon-button__label">
 					<span class="icon-button__label-text general-options general-options--vhidden--always">Наш телефон</span>
@@ -54,6 +82,15 @@
 				</label>
 			</div>
 		</menu>
+
+		<a class="panel__item panel__link" href="mailto:mail@cps.com">mail@cps.com</a>
+		<a class="panel__item panel__link panel__link--fs--lg" href="tel:+78008908900">8 800 890 8900</a>
+		<menu class="buttons-row buttons-row--jf--start">
+			<a class="buttons-row__button" href="#" target="_self">RU</a>
+			<a class="buttons-row__button" href="#" target="_self">EN</a>
+			<a class="buttons-row__button" href="#" target="_self">CH</a>
+		</menu>
+
 
 	</aside>
 </body>

@@ -1,0 +1,8 @@
+.navigation--type--horizontal {
+	flex-direction: row;
+	align-items: center;
+}
+.navigation--type--vertical {
+	flex-direction: column;
+	align-items: left;
+}

@@ -31,6 +31,7 @@
 @import url(../assets/blocks/main/__content/main__content.css);
 
 @import url(../assets/blocks/navigation/navigation.css);
+@import url(../assets/blocks/navigation/--type/navigation--type.css);
 @import url(../assets/blocks/navigation/__item/navigation__item.css);
 @import url(../assets/blocks/navigation/__item/--active/navigation__item--active.css);
 @import url(../assets/blocks/navigation/__link/navigation__link.css);

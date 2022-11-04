@@ -1,4 +1,5 @@
 .panel--type--fixed320 {
 	/* Правило для задания 1.4, в основном макете не применимо */
 	width: 320px;
+	border-right: 1px solid black;
 }
