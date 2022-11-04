@@ -1,10 +1,4 @@
 .navigation-marks__item--active {
-	cursor: pointer;
-	display: block;
-	white-space: nowrap;
-	padding: 10px 24px;
-	position: relative;
-	line-height: 32px;
 	color: var(--cps-grey);
 }
 .navigation-marks__item--active:before,
