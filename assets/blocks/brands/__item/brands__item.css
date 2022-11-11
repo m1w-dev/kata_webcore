@@ -1,0 +1,18 @@
+.brands__item {	
+	height: calc(72px - 16px - 16px - 2px);
+	width: calc(240px - 16px - 16px - 2px);
+    padding: 16px;
+    background-color: #fff;
+    border: 1px solid var(--cps-lightgrey);
+    border-radius: 6px;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.brands__item::marker {
+	display: none;
+}

@@ -2,6 +2,9 @@
 
 @import url(../assets/root.css);
 
+@import url(../assets/blocks/brands/brands.css);
+@import url(../assets/blocks/brands/__item/brands__item.css);
+@import url(../assets/blocks/brands/__item-image/brands__item-image.css);
 
 @import url(../assets/blocks/icon-button/icon-button.css);
 @import url(../assets/blocks/icon-button/__button/icon-button__button.css);
@@ -35,6 +38,7 @@
 @import url(../assets/blocks/main/__aside/main__aside.css);
 @import url(../assets/blocks/main/__nav/main__nav.css);
 @import url(../assets/blocks/main/__content/main__content.css);
+@import url(../assets/blocks/main/__brands/main__brands.css);
 
 @import url(../assets/blocks/navigation-buttons/navigation-buttons.css);
 @import url(../assets/blocks/navigation-buttons/__item/navigation-buttons__item.css);
