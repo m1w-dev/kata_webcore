@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>CPS Brand Menu</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 	<link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body class="page">
@@ -11,113 +12,119 @@
 		<section class="main__brands">
 			<h2 class="main__subtitle">Ремонт техники различных брендов</h2>
 
-			<ul class="brands block-readmore block-readmore--block--brands">
-				<li class="brands__item">
-					<img alt="" src="/assets/img/brands/1.png" class="brands__item-image">
-					<div class="icon-button">
-						<label class="icon-button__label">
-							<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
-							<button class="icon-button__button icon-button__button--img--arrow-right"></button>
-						</label>
-					</div>
-				</li>
-				<li class="brands__item">
-					<img alt="" src="/assets/img/brands/2.png" class="brands__item-image">
-					<div class="icon-button">
-						<label class="icon-button__label">
-							<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
-							<button class="icon-button__button icon-button__button--img--arrow-right"></button>
-						</label>
-					</div>
-				</li>
-				<li class="brands__item">
-					<img alt="" src="/assets/img/brands/3.png" class="brands__item-image">
-					<div class="icon-button">
-						<label class="icon-button__label">
-							<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
-							<button class="icon-button__button icon-button__button--img--arrow-right"></button>
-						</label>
-					</div>
-				</li>
-				<li class="brands__item">
-					<img alt="" src="/assets/img/brands/4.png" class="brands__item-image">
-					<div class="icon-button">
-						<label class="icon-button__label">
-							<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
-							<button class="icon-button__button icon-button__button--img--arrow-right"></button>
-						</label>
-					</div>
-				</li>
-				<li class="brands__item brands__item--hidden--media-tablet">
-					<img alt="" src="/assets/img/brands/5.png" class="brands__item-image">
-					<div class="icon-button">
-						<label class="icon-button__label">
-							<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
-							<button class="icon-button__button icon-button__button--img--arrow-right"></button>
-						</label>
-					</div>
-				</li>
-				<li class="brands__item brands__item--hidden--media-tablet">
-					<img alt="" src="/assets/img/brands/6.png" class="brands__item-image">
-					<div class="icon-button">
-						<label class="icon-button__label">
-							<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
-							<button class="icon-button__button icon-button__button--img--arrow-right"></button>
-						</label>
-					</div>
-				</li>
-				<li class="brands__item brands__item--hidden--media-desktop">
-					<img alt="" src="/assets/img/brands/7.png" class="brands__item-image">
-					<div class="icon-button">
-						<label class="icon-button__label">
-							<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
-							<button class="icon-button__button icon-button__button--img--arrow-right"></button>
-						</label>
-					</div>
-				</li>
-				<li class="brands__item brands__item--hidden--media-desktop">
-					<img alt="" src="/assets/img/brands/8.png" class="brands__item-image">
-					<div class="icon-button">
-						<label class="icon-button__label">
-							<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
-							<button class="icon-button__button icon-button__button--img--arrow-right"></button>
-						</label>
-					</div>
-				</li>
-				<li class="brands__item brands__item--hidden--always">
-					<img alt="" src="/assets/img/brands/9.png" class="brands__item-image">
-					<div class="icon-button">
-						<label class="icon-button__label">
-							<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
-							<button class="icon-button__button icon-button__button--img--arrow-right"></button>
-						</label>
-					</div>
-				</li>
-				<li class="brands__item brands__item--hidden--always">
-					<img alt="" src="/assets/img/brands/10.png" class="brands__item-image">
-					<div class="icon-button">
-						<label class="icon-button__label">
-							<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
-							<button class="icon-button__button icon-button__button--img--arrow-right"></button>
-						</label>
-					</div>
-				</li>
-				<li class="brands__item brands__item--hidden--always">
-					<img alt="" src="/assets/img/brands/11.png" class="brands__item-image">
-					<div class="icon-button">
-						<label class="icon-button__label">
-							<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
-							<button class="icon-button__button icon-button__button--img--arrow-right"></button>
-						</label>
-					</div>
-				</li>
-			</ul>
-			<button class="readmore readmore--open block-readmore block-readmore--target--brands" type="button">
+			<div class="swiper__brands">
+				<ul class="brands block-readmore block-readmore--block--brands swiper-wrapper">
+					<li class="swiper-slide brands__item">
+						<img alt="" src="/assets/img/brands/1.png" class="swiper-slide brands__item-image">
+						<div class="icon-button">
+							<label class="icon-button__label">
+								<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
+								<button class="icon-button__button icon-button__button--img--arrow-right"></button>
+							</label>
+						</div>
+					</li>
+					<li class="swiper-slide brands__item">
+						<img alt="" src="/assets/img/brands/2.png" class="swiper-slide brands__item-image">
+						<div class="icon-button">
+							<label class="icon-button__label">
+								<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
+								<button class="icon-button__button icon-button__button--img--arrow-right"></button>
+							</label>
+						</div>
+					</li>
+					<li class="swiper-slide brands__item">
+						<img alt="" src="/assets/img/brands/3.png" class="swiper-slide brands__item-image">
+						<div class="icon-button">
+							<label class="icon-button__label">
+								<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
+								<button class="icon-button__button icon-button__button--img--arrow-right"></button>
+							</label>
+						</div>
+					</li>
+					<li class="swiper-slide brands__item">
+						<img alt="" src="/assets/img/brands/4.png" class="swiper-slide brands__item-image">
+						<div class="icon-button">
+							<label class="icon-button__label">
+								<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
+								<button class="icon-button__button icon-button__button--img--arrow-right"></button>
+							</label>
+						</div>
+					</li>
+					<li class="swiper-slide brands__item swiper-slide brands__item--hidden--media-tablet">
+						<img alt="" src="/assets/img/brands/5.png" class="swiper-slide brands__item-image">
+						<div class="icon-button">
+							<label class="icon-button__label">
+								<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
+								<button class="icon-button__button icon-button__button--img--arrow-right"></button>
+							</label>
+						</div>
+					</li>
+					<li class="swiper-slide brands__item swiper-slide brands__item--hidden--media-tablet">
+						<img alt="" src="/assets/img/brands/6.png" class="swiper-slide brands__item-image">
+						<div class="icon-button">
+							<label class="icon-button__label">
+								<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
+								<button class="icon-button__button icon-button__button--img--arrow-right"></button>
+							</label>
+						</div>
+					</li>
+					<li class="swiper-slide brands__item swiper-slide brands__item--hidden--media-desktop">
+						<img alt="" src="/assets/img/brands/7.png" class="swiper-slide brands__item-image">
+						<div class="icon-button">
+							<label class="icon-button__label">
+								<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
+								<button class="icon-button__button icon-button__button--img--arrow-right"></button>
+							</label>
+						</div>
+					</li>
+					<li class="swiper-slide brands__item swiper-slide brands__item--hidden--media-desktop">
+						<img alt="" src="/assets/img/brands/8.png" class="swiper-slide brands__item-image">
+						<div class="icon-button">
+							<label class="icon-button__label">
+								<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
+								<button class="icon-button__button icon-button__button--img--arrow-right"></button>
+							</label>
+						</div>
+					</li>
+					<li class="swiper-slide brands__item swiper-slide brands__item--hidden--always">
+						<img alt="" src="/assets/img/brands/9.png" class="swiper-slide brands__item-image">
+						<div class="icon-button">
+							<label class="icon-button__label">
+								<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
+								<button class="icon-button__button icon-button__button--img--arrow-right"></button>
+							</label>
+						</div>
+					</li>
+					<li class="swiper-slide brands__item swiper-slide brands__item--hidden--always">
+						<img alt="" src="/assets/img/brands/10.png" class="swiper-slide brands__item-image">
+						<div class="icon-button">
+							<label class="icon-button__label">
+								<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
+								<button class="icon-button__button icon-button__button--img--arrow-right"></button>
+							</label>
+						</div>
+					</li>
+					<li class="swiper-slide brands__item swiper-slide brands__item--hidden--always">
+						<img alt="" src="/assets/img/brands/11.png" class="swiper-slide brands__item-image">
+						<div class="icon-button">
+							<label class="icon-button__label">
+								<span class="icon-button__label-text general-options general-options--vhidden--always">Название бренда</span>
+								<button class="icon-button__button icon-button__button--img--arrow-right"></button>
+							</label>
+						</div>
+					</li>
+				</ul>
+				<div class="swiper-pagination"></div>
+			</div>
+			<button class="readmore readmore--open block-readmore block-readmore--target--brands" data-class="swiper-slide brands__item--hidden--disabled" type="button">
 				<span class="readmore__close">Показать все</span>
 				<span class="readmore__open">Скрыть всё</span>
 			</button>
 			
 		</section>
 	</main>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src="/assets/blocks/brands/brands.js"></script>
+	<script type="text/javascript" src="/assets/blocks/readmore/readmore.js"></script>
 </body>
 </html>
