@@ -1,0 +1,76 @@
+@mixin options--vhidden {
+	border: 0; 
+	clip: rect(0 0 0 0); 
+	-webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+	clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+	height: 1px; 
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
+}
+
+.options {
+	&--hidden {
+		&--always {
+			display: none;
+		}
+
+		&--mt-mobile {
+			@media (min-width: $breakpoint--mobile + 1px) {
+				display: none;
+			}
+		}
+
+		&--mt-desktop {
+			@media (min-width: $breakpoint--desktop) {
+				display: none;
+			}
+		}
+
+		&--lt-mobile {
+			@media (max-width: $breakpoint--mobile) {
+				display: none;
+			}
+		}
+
+		&--lt-desktop {
+			@media (max-width: $breakpoint--desktop - 1px) {
+				display: none;
+			}
+		}
+	}
+
+	&--vhidden {
+		&--always {
+			@include options--vhidden;
+		}
+
+		&--mt-mobile {
+			@media (min-width: $breakpoint--mobile + 1px) {
+				@include options--vhidden;
+			}
+		}
+
+		&--mt-desktop {
+			@media (min-width: $breakpoint--desktop) {
+				@include options--vhidden;
+			}
+		}
+
+		&--lt-mobile {
+			@media (max-width: $breakpoint--mobile) {
+				@include options--vhidden;
+			}
+		}
+
+		&--lt-desktop {
+			@media (max-width: $breakpoint--desktop - 1px) {
+				@include options--vhidden;
+			}
+		}
+	}
+
+}

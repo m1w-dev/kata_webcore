@@ -1,0 +1,40 @@
+.brands {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px 32px;
+    max-width: 1320px;
+    margin-bottom: 24px;
+
+    &__item {
+        height: calc(72px - 16px - 16px - 2px);
+        width: calc(240px - 16px - 16px - 2px);
+        padding: 16px;
+        background-color: #fff;
+        border: 1px solid var(--cps-lightgrey);
+        border-radius: 6px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+
+        &::marker {
+            display: none;
+        }
+
+        &--hidden {
+            
+        }
+    }
+
+    &__item-image {
+        height: 100%;
+        object-fit: contain;
+        max-width: 130px;
+    }
+}

@@ -13,6 +13,7 @@ module.exports = {
         filename: '[name].[contenthash].js',
         path: path.resolve(__dirname, 'dist'),
     },
+    devtool: 'source-map',
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
@@ -20,7 +21,7 @@ module.exports = {
             template: './index.html',
         }),
         new MiniCssExtractPlugin({
-            filename: 'style.css',
+            filename: 'style.[contenthash].css',
         }),
         new CopyWebpackPlugin({
             patterns: [
@@ -63,7 +64,21 @@ module.exports = {
                 test: /\.(eot|ttf|woff|woff2)$/,
                 type: 'asset/resource',
                 generator: {
-                    filename: 'static/fonts/[name].[ext]'
+                    filename: 'static/fonts/[name][ext]'
+                }
+            },
+            {
+                test: /\.(png|jpg|jpeg|gif)$/,
+                type: 'asset/resource',
+                generator: {
+                    filename: 'static/img/[name][ext]'
+                }
+            },
+            {
+                test: /\.svg$/,
+                type: 'asset/resource',
+                generator: {
+                    filename: 'static/icons/[name][ext]'
                 }
             },
             {

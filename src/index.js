@@ -1,2 +1,2 @@
-import './root.scss';
+import './styles.scss';
 import './blocks/blocks.js';
