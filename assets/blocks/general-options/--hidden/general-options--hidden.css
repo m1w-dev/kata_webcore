@@ -1,0 +1,24 @@
+.general-options--hidden--always {
+	display: none;
+}
+@media (min-width: 513px) {
+	.general-options--hidden--mt-mobile {
+		display: none;
+	}
+}
+@media (min-width: 1120px) {
+	.general-options--hidden--mt-desktop {
+		display: none;
+	}
+}
+
+@media (max-width: 512px) {
+	.general-options--hidden--lt-mobile {
+		display: none;
+	}
+}
+@media (max-width: 1119px) {
+	.general-options--hidden--lt-desktop {
+		display: none;
+	}
+}

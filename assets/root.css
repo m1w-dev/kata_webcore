@@ -1,0 +1,29 @@
+html {
+	font-family: 'TT Lakes';
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+}
+body, menu, li, ul, header, footer, aside, main {
+	padding: 0;
+	margin: 0;
+}
+html, body {
+	min-height: 100vh;
+	width: 100%;
+	min-width: 320px;
+	color: #000000;
+}
+a {
+	color: unset;
+}
+
+:root {
+	--cps-pink: 		#FF3E79;
+	--cps-lightpink:	#FF92B4;
+	--cps-grey: 		#7E7E82;
+	--cps-lightgrey:	#EAEAEA;
+	--cps-blue: 		#41F6D7;
+	--cps-lightblue:	#D9FFF5;
+	--cps-page: 		#F8F8F8;
+}

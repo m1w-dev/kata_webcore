@@ -1,0 +1,4 @@
+.navigation-buttons__link {
+	text-decoration: none;
+	color: var(--cps-grey);
+}
