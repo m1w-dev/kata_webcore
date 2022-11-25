@@ -17,7 +17,8 @@
         flex-basis: 100%;
 
         @media (min-width: $breakpoint--desktop) {
-            flex-basis: 50%;
+            flex-basis: 35%;
+            margin-left: auto!important;
         }
     }
 
@@ -65,7 +66,7 @@
             content: ' ';
             height: 40px;
             width: 4px;
-            background-color: var(--cps-blue);
+            background-color: $color--blue;
             
             @media (min-width: $breakpoint--desktop) {
                left: -32px; 

@@ -73,4 +73,16 @@
 		}
 	}
 
+	&--ms {
+		&--default {
+			margin-left: 24px;
+			margin-right: 24px;
+
+			@media (min-width: $breakpoint--desktop) {
+				margin-left: 32px;
+				margin-right: 32px;
+			}
+		}
+	}
+
 }
