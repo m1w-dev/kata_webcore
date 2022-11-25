@@ -8,7 +8,7 @@
 <body class="page">
 	<header class="page__header header options options--hidden--mt-desktop">
 
-		<div class="header__burger icon-button options options--hidden--mt-desktop">
+		<div class="header__burger icon-button options options--hidden--mt-desktop modal modal--button" data-target="#mainmenu">
 			<label class="icon-button__label">
 				<span class="icon-button__label-text options options--vhidden--always">Меню сайта</span>
 				<button class="icon-button__button icon-button__button--img--burger"></button>
@@ -24,13 +24,13 @@
 		</div>
 
 		<menu class="header__buttons buttons-row buttons-row--jf--end">
-			<div class="buttons-row__button icon-button options options--hidden--mt-desktop options--hidden--lt-mobile">
+			<div class="buttons-row__button icon-button options options--hidden--mt-desktop options--hidden--lt-mobile modal modal--button" data-target="#callback">
 				<label class="icon-button__label">
-					<span class="icon-button__label-text options options--vhidden--always">Наш телефон</span>
+					<span class="icon-button__label-text options options--vhidden--always">Заказать звонок</span>
 					<button class="icon-button__button icon-button__button--img--phone"></button>
 				</label>
 			</div>
-			<div class="buttons-row__button icon-button options options--hidden--mt-desktop options--hidden--lt-mobile">
+			<div class="buttons-row__button icon-button options options--hidden--mt-desktop options--hidden--lt-mobile modal modal--button" data-target="#feedback">
 				<label class="icon-button__label">
 					<span class="icon-button__label-text options options--vhidden--always">Написать нам</span>
 					<button class="icon-button__button icon-button__button--img--chat"></button>
@@ -45,7 +45,7 @@
 
 			<div class="header__divider options options--hidden--mt-desktop"></div>
 
-			<div class="buttons-row__button icon-button">
+			<div class="buttons-row__button icon-button modal modal--button" data-target="#feedback">
 				<label class="icon-button__label">
 					<span class="icon-button__label-text options options--vhidden--always">Оставить заявку</span>
 					<button class="icon-button__button icon-button__button--img--order"></button>
@@ -283,7 +283,7 @@
 					</div>
 				</li>
 				<li class="cards__item cards__item--hidden--always swiper-slide showmore showmore--item--types" data-ds="flex">
-					<span class="cards__item-text">Ремонт другого говна</span>
+					<span class="cards__item-text">Ремонт другого хлама</span>
 					<div class="cards__item-button icon-button">
 						<label class="icon-button__label">
 							<span class="icon-button__label-text options options--vhidden--always">Читать подробнее</span>
@@ -414,10 +414,10 @@
 	<aside id="mainmenu" class="page__modal modal modal--dialog modal--side--left modal--mediamenu">
 		<div class="page__panel panel modal__content">
 			<section class="panel__item header">
-				<div class="header__burger icon-button options options--hidden--mt-desktop">
+				<div class="header__burger icon-button options options--hidden--mt-desktop modal__button-close">
 					<label class="icon-button__label">
-						<span class="icon-button__label-text options options--vhidden--always">Меню сайта</span>
-						<button class="icon-button__button icon-button__button--img--burger"></button>
+						<span class="icon-button__label-text options options--vhidden--always">Закрыть меню</span>
+						<button class="icon-button__button icon-button__button--img--close"></button>
 					</label>
 				</div>
 
@@ -468,13 +468,13 @@
 
 
 			<menu class="panel__item buttons-row buttons-row--jf--start">
-				<div class="buttons-row__button icon-button">
+				<div class="buttons-row__button icon-button modal modal--button" data-target="#callback">
 					<label class="icon-button__label">
-						<span class="icon-button__label-text options options--vhidden--always">Наш телефон</span>
+						<span class="icon-button__label-text options options--vhidden--always">Заказать звонок</span>
 						<button class="icon-button__button icon-button__button--img--phone"></button>
 					</label>
 				</div>
-				<div class="buttons-row__button icon-button">
+				<div class="buttons-row__button icon-button modal modal--button" data-target="#feedback">
 					<label class="icon-button__label">
 						<span class="icon-button__label-text options options--vhidden--always">Написать нам</span>
 						<button class="icon-button__button icon-button__button--img--chat"></button>
@@ -501,7 +501,7 @@
 
 	<aside id="callback" class="page__modal modal modal--dialog modal--side--right">
 		<div class="form modal__content">
-			<div class="icon-button modal__button">
+			<div class="icon-button modal__button modal__button-close">
 				<label class="icon-button__label">
 					<span class="icon-button__label-text options options--vhidden--always">Закрыть</span>
 					<button class="icon-button__button icon-button__button--img--close"></button>
@@ -521,7 +521,7 @@
 
 	<aside id="feedback" class="page__modal modal modal--dialog modal--side--right">
 		<div class="form modal__content">
-			<div class="icon-button modal__button">
+			<div class="icon-button modal__button modal__button-close">
 				<label class="icon-button__label">
 					<span class="icon-button__label-text options options--vhidden--always">Закрыть</span>
 					<button class="icon-button__button icon-button__button--img--close"></button>

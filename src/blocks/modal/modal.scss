@@ -10,6 +10,9 @@
     		margin-bottom: 40px;
     		margin-top: -8px;
     	}
+	}
+
+	&__button-close {
 
 	}
 
@@ -45,10 +48,6 @@
 	&--open {
 		opacity: 1;
 		visibility: visible;
-
-		.modal__content {
-			transform: translateX(0px)!important;
-		}
 	}
 
 	&--side {
@@ -56,7 +55,6 @@
 			justify-content: flex-start;
 
 			.modal__content {
-				transform: translateX(-400px);
 				box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
 			}
 
@@ -66,7 +64,6 @@
 			justify-content: flex-end;
 
 			.modal__content {
-				transform: translateX(-400px);
 				box-shadow: -16px 0px 4px rgba(69, 79, 126, 0.02), 2px 0px 52px rgba(14, 24, 80, 0.2);
 			}
 		}
@@ -86,7 +83,6 @@
 
 		.modal__content {
 			@media (min-width: $breakpoint--desktop) {
-				transform: translateX(0px)!important;
 				width: 100%;
 			}
 		}
