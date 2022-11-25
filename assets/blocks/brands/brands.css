@@ -1,9 +1,11 @@
 .brands {
-	display: flex;
+	/*
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
     justify-content: flex-start;
     gap: 16px 32px;
+    */
 }

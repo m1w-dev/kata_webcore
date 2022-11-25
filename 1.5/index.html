@@ -5,53 +5,59 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>CPS Brand Menu</title>
 	<link rel="stylesheet" href="/assets/styles.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
 </head>
 <body class="page">
 	<main class="page__main main">
 		<section class="main__brands">
 			<h2 class="main__subtitle">Ремонт техники различных брендов</h2>
 
-			<ul class="brands">
-				<li class="brands__item">
-					<img alt="" src="/assets/img/logo.jpg" class="brands__item-image">
-					<div class="icon-button">
-						<label class="icon-button__label">
-							<span class="icon-button__label-text general-options general-options--vhidden--always">Меню сайта</span>
-							<button class="icon-button__button icon-button__button--img--burger"></button>
-						</label>
-					</div>
-				</li>
-				<li class="brands__item">
-					<img alt="" src="/assets/img/logo.jpg" class="brands__item-image">
-					<div class="icon-button">
-						<label class="icon-button__label">
-							<span class="icon-button__label-text general-options general-options--vhidden--always">Меню сайта</span>
-							<button class="icon-button__button icon-button__button--img--burger"></button>
-						</label>
-					</div>
-				</li>
-				<li class="brands__item">
-					<img alt="" src="/assets/img/logo.jpg" class="brands__item-image">
-					<div class="icon-button">
-						<label class="icon-button__label">
-							<span class="icon-button__label-text general-options general-options--vhidden--always">Меню сайта</span>
-							<button class="icon-button__button icon-button__button--img--burger"></button>
-						</label>
-					</div>
-				</li>
-				<li class="brands__item">
-					<img alt="" src="/assets/img/logo.jpg" class="brands__item-image">
-					<div class="icon-button">
-						<label class="icon-button__label">
-							<span class="icon-button__label-text general-options general-options--vhidden--always">Меню сайта</span>
-							<button class="icon-button__button icon-button__button--img--burger"></button>
-						</label>
-					</div>
-				</li>
-			</ul>
-				
+			<div class="swiper">
+				<ul class="brands swiper-wrapper">
+					<li class="brands__item swiper-slide">
+						<img alt="" src="/assets/img/logo.jpg" class="brands__item-image">
+						<div class="icon-button">
+							<label class="icon-button__label">
+								<span class="icon-button__label-text general-options general-options--vhidden--always">Меню сайта</span>
+								<button class="icon-button__button icon-button__button--img--burger"></button>
+							</label>
+						</div>
+					</li>
+					<li class="brands__item swiper-slide">
+						<img alt="" src="/assets/img/logo.jpg" class="brands__item-image">
+						<div class="icon-button">
+							<label class="icon-button__label">
+								<span class="icon-button__label-text general-options general-options--vhidden--always">Меню сайта</span>
+								<button class="icon-button__button icon-button__button--img--burger"></button>
+							</label>
+						</div>
+					</li>
+					<li class="brands__item swiper-slide">
+						<img alt="" src="/assets/img/logo.jpg" class="brands__item-image">
+						<div class="icon-button">
+							<label class="icon-button__label">
+								<span class="icon-button__label-text general-options general-options--vhidden--always">Меню сайта</span>
+								<button class="icon-button__button icon-button__button--img--burger"></button>
+							</label>
+						</div>
+					</li>
+					<li class="brands__item swiper-slide">
+						<img alt="" src="/assets/img/logo.jpg" class="brands__item-image">
+						<div class="icon-button">
+							<label class="icon-button__label">
+								<span class="icon-button__label-text general-options general-options--vhidden--always">Меню сайта</span>
+								<button class="icon-button__button icon-button__button--img--burger"></button>
+							</label>
+						</div>
+					</li>
+				</ul>
+			 <div class="swiper-pagination"></div>
+			</div>
 			
 		</section>
 	</main>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="swiper.js"></script>
 </body>
 </html>
