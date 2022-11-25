@@ -31,28 +31,19 @@
 
     }
 
-    &__readmore {
-        border: none;
-        background: none;
+    &__link {
+        text-decoration: none;
         font-size: 16px;
-        padding-left: calc(16px + 8px);
         position: relative;
-        cursor: pointer;
+        font-weight: 500;
 
-        &:before {
+        &:after {
+            content: '>';
             position: absolute;
-            content: '';
-            -webkit-mask: url('/static/icons/arrows.svg') no-repeat 50% 50%;
-            mask: url('/static/icons/arrows.svg') no-repeat 50% 50%;
-            -webkit-mask-size: contain;
-            mask-size: contain;
-            
-            top: 25%;
-            left: 0;
-            width: 8px;
-            height: 11px;
-            background-color: $color--blue;
+            right: -16px;
+            font-size: 16px;
+            top: 5%;
+            color: $color--pink;
         }
     }
-
 }

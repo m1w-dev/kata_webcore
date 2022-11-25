@@ -26,5 +26,11 @@ $color--blue: 		#41F6D7;
 $color--lightblue:	#D9FFF5;
 $color--page: 		#F8F8F8;
 
-$breakpoint--mobile: 512px;
-$breakpoint--desktop: 1120px;
+$breakpoint--mobile: 540px;
+$breakpoint--desktop: 1440px;
+
+main {
+	@media(min-width: 1440px) {
+		margin-left: 320px;
+	}
+}

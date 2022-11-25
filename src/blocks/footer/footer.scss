@@ -1,0 +1,48 @@
+.footer {
+	color: $color--grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    @media (max-width: $breakpoint--mobile) {
+    	flex-direction: column;
+    	gap: 16px
+    }
+
+	&__item {
+		flex-basis: 30%;
+		flex-grow: 1;
+		width: 100%;
+
+    	a {
+    		text-decoration: none;
+    	}
+
+    	&--left {
+    		text-align: left;
+    		
+    		@media (max-width: $breakpoint--mobile) {
+		    	text-align: center;
+		    }
+    	}
+
+    	&--center {
+			text-align: center;
+
+			@media (max-width: $breakpoint--mobile) {
+		    	text-align: center;
+		    }
+    	}
+
+    	&--right {
+    		text-align: right;
+
+    		@media (max-width: $breakpoint--mobile) {
+		    	text-align: center;
+		    }
+    	}
+	}
+}

@@ -9,19 +9,40 @@
     &__header {
         padding: 10px 24px;
         border-bottom: 1px solid $color--lightblue;
+
+        @media (min-width: $breakpoint--desktop) {
+            margin-left: 320px;
+        }
     }
 
     &__main {
         padding: 24px 24px;
+        padding-bottom: 40px;
 
         @media (min-width: $breakpoint--desktop) {
             padding: 42px 32px;
+            margin-left: 320px;
         }
     }
 
     &__panel {
-        box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
-        height: 100%;
-        min-height: 100vh;
+    
+    }
+
+    &__modal {
+        z-index: 10;
+    }
+
+    &__footer {
+        border-top: 1px solid $color--lightblue;
+        padding: 40px 16px;
+
+        @media (max-width: $breakpoint--mobile) {
+            padding: 16px;
+        }
+
+        @media (min-width: $breakpoint--desktop) {
+            margin-left: 320px;
+        }
     }
 }

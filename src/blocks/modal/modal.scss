@@ -1,0 +1,94 @@
+.modal {
+
+	&__button {
+		position: absolute;
+    	left: -55px;
+    	top: 28px;
+
+    	@media (max-width: $breakpoint--mobile) {
+    		position: static;
+    		margin-bottom: 40px;
+    		margin-top: -8px;
+    	}
+
+	}
+
+	&__content {
+		position: relative;
+
+		@media (max-width: $breakpoint--mobile) {
+    		flex-basis: 100%;
+    		min-width: 320px;
+    	}
+	}
+
+	&--dialog {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100%;
+		min-width: 320px;
+		background-color: #ffffffa1;
+		backdrop-filter: blur(5px);
+		transition: 1s all ease;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-items: flex-start;
+		opacity: 0;
+		visibility: hidden;
+		overflow-x: auto;
+	}
+
+
+	&--open {
+		opacity: 1;
+		visibility: visible;
+
+		.modal__content {
+			transform: translateX(0px)!important;
+		}
+	}
+
+	&--side {
+		&--left {
+			justify-content: flex-start;
+
+			.modal__content {
+				transform: translateX(-400px);
+				box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+			}
+
+		}
+
+		&--right {
+			justify-content: flex-end;
+
+			.modal__content {
+				transform: translateX(-400px);
+				box-shadow: -16px 0px 4px rgba(69, 79, 126, 0.02), 2px 0px 52px rgba(14, 24, 80, 0.2);
+			}
+		}
+	}
+
+	&--button {
+
+	}
+
+	&--mediamenu {
+		
+		@media (min-width: $breakpoint--desktop) {
+			opacity: 1;
+			visibility: visible;
+			width: 320px;
+		}
+
+		.modal__content {
+			@media (min-width: $breakpoint--desktop) {
+				transform: translateX(0px)!important;
+				width: 100%;
+			}
+		}
+	}
+}

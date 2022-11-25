@@ -1,0 +1,30 @@
+.table {
+
+	display: table;
+	width: 100%;
+
+	@media (max-width: $breakpoint--mobile) {
+		display: flex;
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-content: center;
+		justify-content: flex-start;
+		align-items: center;
+		gap: 16px;
+		min-height: 64px;
+		border-bottom: 1px solid $color--lightgrey;
+		background-color: #fff;	
+
+		@media (max-width: $breakpoint--mobile) {
+			flex-wrap: wrap;
+		}
+
+		&--is-header {
+			background-color: $color--page;
+		}
+	}
+}

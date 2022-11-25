@@ -1,0 +1,103 @@
+.service-col {
+	display: flex;
+	margin: 0;
+
+	@media (max-width: $breakpoint--mobile) {
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    align-content: center;
+	    justify-content: flex-start;
+	    align-items: center;
+	}
+
+	
+	&__description {
+		margin: 0;
+		display: none;
+		color: $color--grey;
+
+		@media (max-width: $breakpoint--mobile) {
+			display: block;
+			flex-basis: 100%;
+		}
+	}
+
+	&__val {
+		display: block;
+		margin: 0;
+	}
+
+
+	&--name {
+		width: 125px;
+		flex-grow: 1;
+		margin-left: 16px;
+
+		@media (max-width: $breakpoint--mobile) {
+			width: 100%;
+			margin: 16px 0 0 16px;
+		}
+	}
+
+	&--price {
+		width: 80px;
+
+		@media (max-width: $breakpoint--mobile) {
+			width: 100%;
+			margin: 0 0 0 16px;
+		}
+	}
+
+	&--time {	
+		width: 85px;
+
+		@media (max-width: $breakpoint--mobile) {
+			width: 100%;
+			flex-basis: 30%;
+			margin: 0 0 16px 16px;
+		}
+	}
+
+	&--button {
+		width: 120px;
+		margin: 0;
+		margin-left: auto;
+		display: block;
+		background-color: $color--pink;
+		color: #fff;
+		border: none;
+		border-radius: 16px;
+		height: 32px;
+		margin-right: 16px;
+		text-align: left;
+		position: relative;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 12px;
+		padding-left: 16px;
+		padding-right: 0px;
+		transition: all 0.3s ease; 
+		cursor: pointer;
+
+		@media (max-width: $breakpoint--mobile) {
+			margin: 0 16px 16px auto;
+		}
+
+		&:after {
+			content: '>';
+			position: absolute;
+			right: 16px;
+			font-size: 16px;
+			top: 18%;
+		}
+
+		&:hover {
+			background-color: $color--lightpink;
+		}
+
+		&--invisible {
+			opacity: 0;
+			cursor: none;
+		}
+	}
+}

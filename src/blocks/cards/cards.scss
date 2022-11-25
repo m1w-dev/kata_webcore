@@ -1,0 +1,71 @@
+.cards {
+	display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 24px;
+
+	&__item {
+		display: flex;
+    	flex-direction: column;
+    	flex-wrap: nowrap;
+    	justify-content: space-between;
+    	gap: 64px;
+    	width: 240px;
+    	background-color: #fff;
+    	border: 1px solid $color--lightgrey;
+		border-radius: 6px;
+		padding: 16px;
+		flex-grow: 1;
+		flex-basis: 15%;
+
+		@media (max-width: $breakpoint--mobile) {
+			flex-basis: unset;
+		}
+
+		&--hidden {
+
+			&--c3 { 
+				@media (max-width: 1040px) {
+					display: none;
+				}
+				@media (max-width: $breakpoint--mobile) {
+			        display: flex;
+			    }
+			}
+
+			&--c2 {
+				@media (max-width: 820px) {
+					display: none;
+				}
+				@media (max-width: $breakpoint--mobile) {
+			        display: flex;
+			    }
+			}
+
+			&--always {
+				display: none;
+				@media (max-width: $breakpoint--mobile) {
+			        display: flex;
+			    }
+			}
+		}
+		
+
+		&::marker {
+            display: none;
+        }
+	}
+
+	&__item-text {
+		align-self: flex-start;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	&__item-button {
+		align-self: flex-end;
+	}
+}

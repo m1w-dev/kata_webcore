@@ -1,0 +1,56 @@
+.showmore {
+
+	&--is-visible {
+		
+		.showmore--opened {
+			display: inline;
+		}
+
+		.showmore--closed {
+			display: none;
+		}
+
+		&.showmore--button {
+			&:before {
+				transform: rotate(180deg);
+			}
+		}
+	}
+
+	&--item {
+
+	}
+
+	&--button {
+		border: none;
+		background: none;
+		font-size: 16px;
+		padding-left: calc(16px + 8px);
+		position: relative;
+		cursor: pointer;
+
+		&:before {
+			position: absolute;
+			content: '';
+			-webkit-mask: url('/static/icons/arrows.svg') no-repeat 50% 50%;
+		  	mask: url('/static/icons/arrows.svg') no-repeat 50% 50%;
+		  	-webkit-mask-size: contain;
+		 	mask-size: contain;
+			transition: transform 0.6s ease;
+			top: 25%;
+			left: 0;
+			width: 8px;
+			height: 11px;
+			background-color: $color--blue;
+		}
+	}
+
+	&--opened {
+		display: none;
+	}
+
+	&--closed {
+		display: inline;
+	}	
+
+}

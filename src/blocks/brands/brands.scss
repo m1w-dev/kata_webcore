@@ -1,13 +1,18 @@
 .brands {
-	display: flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
     justify-content: flex-start;
     gap: 16px 32px;
-    max-width: 1320px;
+    /*max-width: 1320px;*/
     margin-bottom: 24px;
+    width: 100%;
+
+    @media (max-width: 559px) {
+        flex-wrap: nowrap;
+    }
 
     &__item {
         height: calc(72px - 16px - 16px - 2px);
@@ -22,6 +27,20 @@
         align-content: center;
         justify-content: space-between;
         align-items: center;
+        flex-grow: 1;
+        flex-basis: 19%;
+
+        @media (max-width: 1185px) {
+            flex-basis: 25%;
+        }
+
+        @media (max-width: 780px) {
+            flex-basis: 30%;
+        }
+
+        @media (max-width: $breakpoint--mobile) {
+            flex-basis: unset;
+        }
 
         &::marker {
             display: none;
@@ -29,6 +48,30 @@
 
         &--hidden {
             
+            &--c3 {
+                @media (max-width: 1185px) {
+                    display: none;
+                }
+                @media (max-width: $breakpoint--mobile) {
+                    display: flex;
+                }
+            }
+
+            &--c2 {
+                @media (max-width: 780px) {
+                    display: none;
+                }
+                @media (max-width: $breakpoint--mobile) {
+                    display: flex;
+                }
+            }
+
+            &--always {
+                display: none;
+                @media (max-width: $breakpoint--mobile) {
+                    display: flex;
+                }
+            }
         }
     }
 

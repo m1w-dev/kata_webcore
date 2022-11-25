@@ -49,6 +49,15 @@
 				@extend %icon-button__button--img;
 				background-image: url('/static/icons/search.svg');
 			}
+			&--arrow-right {
+				@extend %icon-button__button--img;
+				background-color: #fff;
+				background-image: url('/static/icons/arrow-right.svg');
+			}
+			&--close {
+				@extend %icon-button__button--img;
+				background-image: url('/static/icons/close.svg');
+			}
 		}
 	}
 
