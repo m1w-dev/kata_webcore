@@ -10,8 +10,9 @@
     margin-bottom: 24px;
     width: 100%;
 
-    @media (max-width: 559px) {
+    @media (max-width: $breakpoint--mobile) {
         flex-wrap: nowrap;
+        gap: unset
     }
 
     &__item {
@@ -40,6 +41,7 @@
 
         @media (max-width: $breakpoint--mobile) {
             flex-basis: unset;
+            flex-grow: unset;
         }
 
         &::marker {

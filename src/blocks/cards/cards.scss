@@ -7,6 +7,13 @@
     align-items: flex-start;
     margin-bottom: 24px;
 
+    @media (max-width: $breakpoint--mobile) {
+        flex-wrap: nowrap;
+        gap: unset;
+        justify-content: unset;
+	    align-items: unset;
+    }
+
 	&__item {
 		display: flex;
     	flex-direction: column;
@@ -23,6 +30,8 @@
 
 		@media (max-width: $breakpoint--mobile) {
 			flex-basis: unset;
+			flex-grow: unset;
+			width: 100%;
 		}
 
 		&--hidden {
@@ -54,9 +63,6 @@
 		}
 		
 
-		&::marker {
-            display: none;
-        }
 	}
 
 	&__item-text {
