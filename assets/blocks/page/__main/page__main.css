@@ -1,8 +1,0 @@
-.page__main {
-	padding: 24px 24px;
-}
-@media (min-width: 1120px) {
-	.page__main {
-		padding: 42px 32px;
-	}
-}

@@ -1,9 +1,0 @@
-.navigation-buttons {
-	display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-between;
-    gap: 16px;
-    flex-direction: row;
-    align-items: center;
-}

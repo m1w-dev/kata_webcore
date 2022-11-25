@@ -1,6 +1,0 @@
-.navigation-buttons__item--active,
-.navigation-buttons__item--active:hover {
-	border: 2px solid var(--cps-blue);
-	background-color: white;
-	color: black;
-}
