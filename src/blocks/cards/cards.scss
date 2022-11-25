@@ -5,7 +5,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin-bottom: 24px;
+    margin-bottom: 40px;
 
     @media (max-width: $breakpoint--mobile) {
         flex-wrap: nowrap;
@@ -16,18 +16,18 @@
 
 	&__item {
 		display: flex;
+    	background-color: #fff;
     	flex-direction: column;
     	flex-wrap: nowrap;
-    	justify-content: space-between;
     	gap: 64px;
+    	justify-content: space-between;
     	width: 240px;
-    	background-color: #fff;
-    	border: 1px solid $color--lightgrey;
 		border-radius: 6px;
-		padding: 16px;
 		flex-grow: 1;
-		flex-basis: 15%;
-
+		flex-basis: 20%;
+    	/*
+    	border: 1px solid $color--lightgrey;
+*/
 		@media (max-width: 1040px) {
 			flex-basis: 20%;
 		}
@@ -73,12 +73,14 @@
 	}
 
 	&__item-text {
+		margin: 16px 16px 0 16px;
 		align-self: flex-start;
 		font-size: 16px;
 		line-height: 24px;
 	}
 
 	&__item-button {
+		margin: 0 16px 16px 16px;
 		align-self: flex-end;
 	}
 }
