@@ -2,9 +2,6 @@ function showmore_click_handler(button, targets) {
 
 	button.addEventListener('click', function() {
 
-		console.log(button);
-		console.log(targets);
-
 		if (button.classList.contains('showmore--is-visible')) {
 			button.classList.remove('showmore--is-visible');
 			for (var i = targets.length - 1; i >= 0; i--) {

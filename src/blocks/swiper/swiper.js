@@ -2,7 +2,6 @@ import Swiper, {Pagination} from "swiper";
 Swiper.use ([Pagination]);
 
 const windowInnerWidth = window.innerWidth;
-console.log(windowInnerWidth);
 
 function swiper_handler(el) {
     const swiper = new Swiper(el, {
@@ -19,7 +18,6 @@ function swiper_handler(el) {
 
 window.addEventListener('load', () => {
     if (windowInnerWidth <= 540) {
-        console.log('init swiper');
 
         var sliders = document.querySelectorAll('.swiper');
 
