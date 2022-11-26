@@ -33,3 +33,9 @@
 	background-position: center;
 	background-repeat: no-repeat;
 }
+.icon-button__button--img--arrow-right {
+	background-color: #fff;
+	background-image: url('/assets/icons/arrow-right.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+}

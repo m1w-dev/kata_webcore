@@ -1,4 +1,6 @@
 .brands__item-image {
-	height: 100%;
-	object-fit: contain;
+	height: 72px - 32px;
+    object-fit: contain;
+    max-width: 130px;
+    margin: 16px auto 16px 16px;
 }

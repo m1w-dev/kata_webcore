@@ -11,7 +11,7 @@
 	width: 1px;
 	white-space: nowrap;
 }
-@media (min-width: 513px) {
+@media (min-width: 541px) {
 	.general-options--vhidden--mt-mobile {
 		border: 0; 
 		clip: rect(0 0 0 0); 
@@ -43,7 +43,7 @@
 	}
 }
 
-@media (max-width: 512px) {
+@media (max-width: 540px) {
 	.general-options--vhidden--lt-mobile {
 		border: 0; 
 		clip: rect(0 0 0 0); 

@@ -1,0 +1,27 @@
+.brands__item--hidden {
+
+}
+
+.brands__item--hidden--always {
+	display: none;
+}
+
+@media (max-width: 1185px) {
+	.brands__item--hidden--c3 {
+		display: none;
+	}
+}
+
+@media (max-width: 780px) {
+	.brands__item--hidden--c2 {
+		display: none;
+	}
+}
+
+@media (max-width: 540px) {
+	.brands__item--hidden--c3,
+	.brands__item--hidden--c2,
+	.brands__item--hidden--always {
+		display: flex;
+	}
+}

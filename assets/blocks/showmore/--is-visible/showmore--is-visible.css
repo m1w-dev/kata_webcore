@@ -1,0 +1,15 @@
+.showmore--is-visible {
+
+}
+
+.showmore--is-visible .showmore--opened {
+	display: inline;
+}
+
+.showmore--is-visible .showmore--closed {
+	display: none;
+}
+
+.showmore--is-visible.showmore--button:before {
+	transform: rotate(180deg);
+}
